@@ -57,7 +57,7 @@ html,body{margin:0;height:100%;background:#231f30;color:#f3ead8;font-family:"Son
 (function(){
 'use strict';
 var ORIG = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
-var CFG = /*CFG*/{"v":1,"iter":210000,"salt":"Eb7szvnTLLUnFGDZMaATkQ==","wrapped":"d1nETcL2IzulOK+ZMdU8Jb4lH44szeCBymChMjxqYqfyZNB1bM4bP4JY+EP/3+Nw8mtnrsInNUtaRqYN"}/*CFG*/;
+var CFG = /*CFG*/{"v":1,"iter":210000,"salt":"tVsJ/Eh1q/CrLoUjxIOAbg==","wrapped":"045hQ9rt0JIlN1LRDLXP0adrP2KX/lPHbCbpV7PERQH2oRFzd0o/9R+2OvE/oEy8vLxXzTjSlTJiu/GC"}/*CFG*/;
 var te = new TextEncoder(), td = new TextDecoder();
 var waiting = {}, arrived = {};
 window.__LYB = function (name, data) { arrived[name] = data; if (waiting[name]) { waiting[name].forEach(function (f) { f(data); }); delete waiting[name]; } };
